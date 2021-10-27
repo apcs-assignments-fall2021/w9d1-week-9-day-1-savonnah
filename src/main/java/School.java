@@ -15,17 +15,13 @@ public class School {
 
     public void inputgrade (int input){ this.grade = grade; }
 
-    public void Balance (){
-        this.balance = 0;
-    }
-
     public void deposit (int input){ this.balance = balance + input; }
 
     public void withdraw (int input){ this.balance = balance - input; }
 
     public int getBalance (){ return balance; }
 
-    public void getSchoolName (String name){
+    public void setPreferredName (String name){
         this.preferredName = name;
     }
 
