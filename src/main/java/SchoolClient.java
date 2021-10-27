@@ -21,7 +21,7 @@ public class SchoolClient {
             } else if (command.equals("input grade")) {
                 System.out.println("Please input your grade.");
                 int grade = scan.nextInt();
-                account.inputgrade(grade);
+                account.setGrade(grade);
             } else if (command.equals("check student grade")) {
                 System.out.println("Student is in grade: " + account.getgrade());
             } else if (command.equals("check student ID number")) {

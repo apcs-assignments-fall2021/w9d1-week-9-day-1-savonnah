@@ -13,7 +13,6 @@ public class School {
         balance = b;
     }
 
-    public void inputgrade (int input){ this.grade = grade; }
 
     public void deposit (int input){ this.balance = balance + input; }
 
@@ -24,6 +23,8 @@ public class School {
     public void setPreferredName (String name){
         this.preferredName = name;
     }
+
+    public void setGrade (int num) {this.grade = num;}
 
     public int getgrade (){
         return grade;
